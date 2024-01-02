@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Facturation.Client">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAEEAAAAAgAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facturation.Entreprise">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAgAAEAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Entreprise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facturation.Etape">
+    <Position X="1.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAAAAAAAAAAAQgAAAAACAAAAAAAA=</HashCode>
+      <FileName>Etape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facturation.Facture">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAACAAQAgAAAAACAAAAAAQCAAAABAEAAIAQ=</HashCode>
+      <FileName>Facture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+      <Property Name="Prestation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Facturation.FactureComplexe">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactureComplexe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facturation.Particulier">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAgAAACAAAAAAACAAAAAQAAA=</HashCode>
+      <FileName>Particulier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Civilite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Facturation.Prestation">
+    <Position X="4.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAEAAAAAAABAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Prestation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facturation.PrestationComplexe">
+    <Position X="4.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrestationComplexe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Etapes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="Facturation.Civilite">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Particulier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
